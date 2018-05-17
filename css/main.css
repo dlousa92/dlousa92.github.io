@@ -1,6 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0 auto;
-  box-sizing: border-box;
   background: #DEE8E4;
   color: rgb(66, 71, 71);
   width: 80%;
@@ -65,24 +68,34 @@ a:hover {
   width: 500px;
 }
 
-.top-aside {
+.aside-top {
   margin-right: 20px;
 }
 
 .proj1 {
-  background: #67597A;
+  background: #413C58;
+}
+
+.proj2 {
+  background: #0D1B2A;
+}
+
+.work {
+  color: white;
 }
 
 /*Temporary CSS for styling*/
 
 p {
-  height: 250px;
-  width: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 2em;
+  height: 200px;
+  width: 250px;
 }
+
+
 
 
 
