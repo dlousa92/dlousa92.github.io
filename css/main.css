@@ -1,9 +1,9 @@
 body {
   margin: 0 auto;
   box-sizing: border-box;
-  background: rgb(185, 196, 195);
+  background: #DEE8E4;
   color: rgb(66, 71, 71);
-  width: 90%;
+  width: 80%;
 }
 
 h1 {
@@ -46,6 +46,7 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin: 50px 0px;
 }
 
 .portfolio-bottom {
@@ -54,3 +55,34 @@ a:hover {
   flex-direction: row-reverse;
   justify-content: space-between;
 }
+
+.projgridtop {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 500px;
+  width: 500px;
+}
+
+.top-aside {
+  margin-right: 20px;
+}
+
+.proj1 {
+  background: #67597A;
+}
+
+/*Temporary CSS for styling*/
+
+p {
+  height: 250px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+
+
+
