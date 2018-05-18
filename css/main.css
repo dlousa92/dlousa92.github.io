@@ -13,9 +13,9 @@
 
 body {
   margin: 0 auto;
-  background: #DEE8E4;
-  color: rgb(66, 71, 71);
+  color: white;
   width: 80%;
+  background-image: url("../img/dark_geometric.png")
 }
 
 h1 {
@@ -79,6 +79,7 @@ a:hover {
 
 .aside-top {
   margin-right: 20px;
+  background: #AD728A;
 }
 
 .proj1 {
@@ -100,7 +101,7 @@ p {
   justify-content: center;
   align-items: center;
   font-size: 2em;
-  height: 200px;
+  height: 250px;
   width: 250px;
 }
 
