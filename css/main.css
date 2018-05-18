@@ -76,10 +76,9 @@ a:hover {
   height: 500px;
   width: 500px;
 }
-
-.aside-top {
-  margin-right: 20px;
-  background: #AD728A;
+.profilepic {
+  height: 250px;
+  width: 200px;
 }
 
 .proj1 {
@@ -88,6 +87,10 @@ a:hover {
 
 .proj2 {
   background: #0D1B2A;
+}
+
+.aside-top {
+  margin-right: 20px;
 }
 
 .work {
