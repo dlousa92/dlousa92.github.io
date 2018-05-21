@@ -26,6 +26,7 @@ h1 {
 
 header {
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-between;
 }
 
@@ -95,6 +96,15 @@ a:hover {
 
 .work {
   color: white;
+}
+
+.profilepic {
+  margin: 0px 0px 0px 20px;
+}
+
+.about {
+  font-size: 20px;
+  padding: 0px 0px 0px 20px;
 }
 
 /*Temporary CSS for styling*/
