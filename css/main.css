@@ -1,8 +1,48 @@
 body {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  position: relative;
 }
 
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 97%;
+  border: 3px solid #424242;
+}
 
+.brandstatement {
+  text-align: center;
+  padding: 20px;
+}
 
+.hobbies {
+  margin-bottom: 30px;
+}
+
+.about {
+  margin-top: -25px;
+  border: 3px solid #424242;
+  padding: 20px;
+}
+
+.bio {
+  line-height: 35px;
+}
+
+main {
+  width: 100%;
+  margin-top: 25px;
+}
+
+.projects {
+  width: 100%;
+}
+
+.projectlink {
+  list-style-type: none;
+}
 
