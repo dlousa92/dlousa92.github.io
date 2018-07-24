@@ -64,6 +64,18 @@ main {
   list-style-type: none;
   border-bottom: 2px solid #fafafa;
   padding: 20px;
+  position: relative;
+}
+
+.projectlink:hover {
+  transition: .45s;
+  background: #fafafa;
+  color: #424242;
+}
+
+i {
+  position: absolute;
+  left: 92%;
 }
 
 .footer {
