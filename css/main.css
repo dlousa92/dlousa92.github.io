@@ -67,10 +67,8 @@ main {
   position: relative;
 }
 
-.projectlink:hover {
-  transition: .45s;
-  background: #fafafa;
-  color: #424242;
+.projecttitle {
+  background: #424242;
 }
 
 i {
