@@ -83,9 +83,18 @@ i {
 }
 
 .footer {
-display: flex;
-width: 100%;
-align-items: center;
-justify-content: space-around;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
 }
 
+.socialmedia {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  height: 100px;
+  width: 100px;
+}
