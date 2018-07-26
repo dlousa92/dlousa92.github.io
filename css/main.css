@@ -87,6 +87,24 @@ i {
   position: absolute;
   left: 91%;
 }
+
+.skillsection {
+  background: #fafafa;
+}
+
+.skillcontent {
+  width: 90%;
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.skills {
+  padding: 0px 3rem;
+  text-align: center;
+}
+
 .footer {
   display: flex;
   width: 100%;
