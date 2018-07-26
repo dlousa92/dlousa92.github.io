@@ -92,6 +92,8 @@ i {
 .socialmedia {
   display: flex;
   justify-content: space-between;
+  max-width: 70%;
+  min-width: 50%;
 }
 
 .icon {
