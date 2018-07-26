@@ -56,6 +56,9 @@ main {
   border: 1px solid #424242;
   box-shadow: 0px 0px black;
   padding: 40px 0px;
+  max-width: 100%;
+  width: 100%;
+  background: #424242;
 }
 
 .projectheader {
@@ -103,6 +106,10 @@ i {
 .skills {
   padding: 0px 3rem;
   text-align: center;
+}
+
+.contactme {
+  width: 97%;
 }
 
 .footer {
