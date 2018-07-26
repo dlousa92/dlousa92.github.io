@@ -82,7 +82,7 @@ h3 {
   text-align: center;
 }
 
-.projectlink {
+.projectcard {
   list-style-type: none;
   padding: 20px;
 }
@@ -100,9 +100,27 @@ h3 {
   transition: .35s;
 }
 
-.link {
+.projectlink {
   text-align: center;
-  margin: 10px 0px;
+  height: 50px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fafafa;
+  color: #424242;
+  border-right: 2px solid #424242;
+}
+
+.projectlink:hover {
+  background: #424242;
+  color: #fafafa;
+  border: 2px solid #fafafa;
+  transition: .35s;
+}
+
+.forspace {
+  margin-bottom: 70px;
 }
 
 i {
