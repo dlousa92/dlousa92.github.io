@@ -65,11 +65,17 @@ main {
 .projectlink {
   list-style-type: none;
   padding: 20px;
-  position: relative;
 }
 
 .projecttitle {
   background: #424242;
+  position: relative;
+}
+
+.projecttitle:hover {
+  color: #424242;
+  background: #fafafa;
+  transition: .35s;
 }
 
 .link {
@@ -79,9 +85,8 @@ main {
 
 i {
   position: absolute;
-  left: 90%;
+  left: 91%;
 }
-
 .footer {
   display: flex;
   width: 100%;
@@ -99,4 +104,9 @@ i {
 .icon {
   height: 100px;
   width: 100px;
+}
+
+.icon:hover {
+  padding-bottom: 10px;
+  transition: .35s;
 }
