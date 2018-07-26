@@ -123,16 +123,17 @@ i {
 }
 
 .skillintro {
-  margin-bottom: 40px;
+
 }
 
-.skillheader {
+.skillheader, .moreabout {
   margin: 0 0 20px 0;
 }
 
 .skills {
   padding: 0px 3rem;
   text-align: center;
+  margin: 0 0 60px 0;
 }
 
 .contactme {
