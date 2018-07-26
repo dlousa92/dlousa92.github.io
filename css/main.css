@@ -144,6 +144,10 @@ i {
   padding: 80px 0px;
 }
 
+.contactme > p {
+  font-size: 1.5em;
+}
+
 .emaillink > a {
   border-bottom: 3px solid #fafafa;
   padding: 10px;
@@ -154,6 +158,7 @@ i {
   background: #fafafa;
   color: #424242;
 }
+
 .footer {
   display: flex;
   width: 97%;
