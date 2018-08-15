@@ -169,6 +169,9 @@ h3 {
   font-size: 1.5em;
 }
 
+.emaillink {
+  font-size: 2.2em;
+}
 .emaillink > a {
   border-bottom: 3px solid #fafafa;
   padding: 10px;
