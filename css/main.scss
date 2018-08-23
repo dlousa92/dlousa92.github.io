@@ -1,0 +1,212 @@
+html {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 35px;
+  max-width: 1800px;
+}
+
+main {
+  width: 100%;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a {
+  color: #fafafa;
+}
+
+i {
+  position: absolute;
+  left: 91%;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+
+h3 {
+  font-weight: 300;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 97%;
+  height: 625px;
+  border: 3px solid #424242;
+  margin-top: 20px;
+  padding: 40px 0px;
+}
+
+.brandstatement {
+  text-align: center;
+  padding: 20px;
+  font-size: 1.2em;
+}
+
+.hobbies {
+  margin-bottom: 70px;
+  font-size: 1.2em;
+}
+
+.about {
+  margin-top: -45px;
+  border: 3px solid #424242;
+  position: relative;
+}
+
+.bioheader {
+  position: absolute;
+  top: -40px;
+  left: 20px;
+  padding: 8px;
+  margin-top: 5px;
+}
+.bio {
+  margin-top: 30px;
+  padding: 8%;
+}
+
+.projects {
+  border: 1px solid #424242;
+  box-shadow: 0px 0px black;
+  padding: 50px 0px 100px 0px;
+  max-width: 100%;
+  width: 100%;
+  background: #424242;
+}
+
+.projectheader {
+  text-align: center;
+}
+
+.projectcard {
+  list-style-type: none;
+  padding: 20px;
+}
+
+.projecttitle {
+  background: #424242;
+  position: relative;
+  font-weight: 500;
+  font-size: 1.2em;
+}
+
+.projecttitle:hover {
+  color: #424242;
+  background: #fafafa;
+  transition: .35s;
+}
+
+.projectlink {
+  text-align: center;
+  height: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fafafa;
+  color: #424242;
+  border-right: 2px solid #424242;
+}
+
+.projectlink:hover {
+  background: #424242;
+  color: #fafafa;
+  border: 2px solid #fafafa;
+  transition: .35s;
+}
+
+.forspace {
+  margin-bottom: 70px;
+}
+
+.skillsection {
+  background: #fafafa;
+  padding: 100px 0px;
+}
+
+.skillcontent {
+  width: 90%;
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skillheader, .moreabout {
+  margin: 0 0 20px 0;
+}
+
+.skills {
+  padding: 0px 3rem;
+  text-align: center;
+  margin: 0 0 60px 0;
+}
+
+.contactme {
+  width: 97%;
+  background: #424242;
+  color: #fafafa;
+  text-align: center;
+  padding: 80px 0px;
+}
+
+.contactme > p {
+  font-size: 1.5em;
+}
+
+.emaillink {
+  font-size: 2.2em;
+}
+.emaillink > a {
+  border-bottom: 3px solid #fafafa;
+  padding: 10px;
+  transition: .35s;
+}
+
+.emaillink > a:hover {
+  background: #fafafa;
+  color: #424242;
+}
+
+.footer {
+  display: flex;
+  width: 97%;
+  align-items: center;
+  justify-content: space-around;
+  border-left: 3px solid #424242;
+  border-right: 3px solid#424242;
+  border-bottom: 3px solid #424242;
+  margin-bottom: 20px;
+}
+
+.socialmedia {
+  display: flex;
+  justify-content: space-between;
+  max-width: 80%;
+  min-width: 50%;
+}
+
+.icon {
+  height: 100px;
+  width: 100px;
+}
+
+.icon:hover {
+  padding-bottom: 10px;
+  transition: .35s;
+}
