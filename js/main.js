@@ -11,5 +11,15 @@ const colorSchemes = [
   {
     primarycolor: '#F98866',
     secondarycolor: '#80BD9E'
-  }, 
-  {}, {}, {}]
+  },
+  {
+    primarycolor: '#2A3132',
+    secondarycolor: '#763626'
+  }, {
+    primarycolor: '#66A5AD',
+    secondarycolor: '003B46'
+  }, {
+    primarycolor: '#F1F1F2',
+    secondarycolor: '#1995AD'
+  }
+]
