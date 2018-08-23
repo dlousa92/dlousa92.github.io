@@ -1,5 +1,5 @@
-$primary-color: #F98866;
-$secondary-color: #213132;
+$primary-color: #80BD9E;
+$secondary-color: #003B46;
 
 html {
   display: flex;
@@ -16,6 +16,7 @@ body {
   line-height: 35px;
   max-width: 1800px;
   background: $primary-color;
+  color: $secondary-color;
 }
 
 main {
