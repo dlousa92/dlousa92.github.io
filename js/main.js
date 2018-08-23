@@ -9,21 +9,25 @@ document.addEventListener('DOMContentLoaded', function () {
 
 const colorSchemes = [
   {
-    primarycolor: '#FAFAFA',
+    primarycolor: '#FAFAFA', // base scheme, love it
     secondarycolor: '#424242'
   },
   {
-    primarycolor: '#F98866',
-    secondarycolor: '#80BD9E'
+    primarycolor: '#F0EFEA', // love this color scheme, burgundy white, luxorious look
+    secondarycolor: '#662225'
   },
   {
-    primarycolor: '#2A3132',
-    secondarycolor: '#763626'
+    primarycolor: '#A4CABC', // love this one, coral color scheme
+    secondarycolor: '#B2473E'
   }, {
-    primarycolor: '#66A5AD',
-    secondarycolor: '003B46'
+    primarycolor: '#EBDCB2', // love this color scheme, cream color scheme
+    secondarycolor: '#662E1C'
   }, {
-    primarycolor: '#F1F1F2',
+    primarycolor: '#F1F1F2', // love this color scheme, icy blue
     secondarycolor: '#1995AD'
+  },
+  {
+    primarycolor: '#F1DCC9', // love this one, mahogany book feel
+    secondarycolor: '#42313A'
   }
 ]
