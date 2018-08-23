@@ -12,6 +12,7 @@ body {
   font-family: "Montserrat", sans-serif;
   line-height: 35px;
   max-width: 1800px;
+  background: #fafafa;
 }
 
 main {
@@ -38,6 +39,10 @@ h1, h2, h3 {
 
 h3 {
   font-weight: 300;
+}
+
+.row .col {
+  padding: 0;
 }
 
 .header {
@@ -75,11 +80,13 @@ h3 {
   left: 20px;
   padding: 8px;
   margin-top: 5px;
+  background: #fafafa;
 }
 
 .bio {
   margin-top: 30px;
   padding: 8%;
+  background: #fafafa;
 }
 
 .projects {
@@ -89,6 +96,7 @@ h3 {
   max-width: 100%;
   width: 100%;
   background: #424242;
+  color: #fafafa;
 }
 
 .projectheader {
