@@ -9,6 +9,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
 const colorSchemes = [
   {
+    primarycolor: '#FAFAFA',
+    secondarycolor: '#424242'
+  },
+  {
     primarycolor: '#F98866',
     secondarycolor: '#80BD9E'
   },
