@@ -1,5 +1,5 @@
-$primary-color: #fafafa;
-$secondary-color: #424242;
+$primary-color: #F98866;
+$secondary-color: #213132;
 
 html {
   display: flex;
@@ -48,6 +48,14 @@ h3 {
   padding: 0;
 }
 
+.collapsible-header {
+  border-bottom: 1px solid $primary-color;
+}
+
+.collapsible-body {
+  border-bottom: 1px solid $primary-color;
+}
+
 .header {
   display: flex;
   flex-direction: column;
@@ -55,7 +63,7 @@ h3 {
   justify-content: space-around;
   width: 97%;
   height: 625px;
-  border: 3px solid #424242;
+  border: 3px solid $secondary-color;
   margin-top: 20px;
   padding: 40px 0px;
 }
@@ -73,7 +81,7 @@ h3 {
 
 .about {
   margin-top: -45px;
-  border: 3px solid #424242;
+  border: 3px solid $secondary-color;
   position: relative;
 }
 
@@ -93,12 +101,12 @@ h3 {
 }
 
 .projects {
-  border: 1px solid #424242;
+  border: 1px solid $secondary-color;
   box-shadow: 0px 0px black;
   padding: 50px 0px 100px 0px;
   max-width: 100%;
   width: 100%;
-  background: #424242;
+  background: $secondary-color;
   color: $primary-color;
 }
 
@@ -112,15 +120,15 @@ h3 {
 }
 
 .projecttitle {
-  background: #424242;
+  background: $secondary-color;
   position: relative;
   font-weight: 500;
   font-size: 1.2em;
 }
 
 .projecttitle:hover {
-  color: #424242;
-  background: #fafafa;
+  color: $secondary-color;
+  background: $primary-color;
   transition: .35s;
 }
 
@@ -131,15 +139,15 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #fafafa;
-  color: #424242;
-  border-right: 2px solid #424242;
+  background: $primary-color;
+  color: $secondary-color;
+  border-right: 2px solid $secondary-color;
 }
 
 .projectlink:hover {
-  background: #424242;
-  color: #fafafa;
-  border: 2px solid #fafafa;
+  background: $secondary-color;
+  color: $primary-color;
+  border: 2px solid $primary-color;
   transition: .35s;
 }
 
@@ -148,7 +156,7 @@ h3 {
 }
 
 .skillsection {
-  background: #fafafa;
+  background: $primary-color;
   padding: 100px 0px;
 }
 
@@ -171,8 +179,8 @@ h3 {
 
 .contactme {
   width: 97%;
-  background: #424242;
-  color: #fafafa;
+  background: $secondary-color;
+  color: $primary-color;
   text-align: center;
   padding: 80px 0px;
 }
@@ -185,14 +193,14 @@ h3 {
   font-size: 2.2em;
 }
 .emaillink > a {
-  border-bottom: 3px solid #fafafa;
+  border-bottom: 3px solid $primary-color;
   padding: 10px;
   transition: .35s;
 }
 
 .emaillink > a:hover {
-  background: #fafafa;
-  color: #424242;
+  background: $primary-color;
+  color: $secondary-color;
 }
 
 .footer {
@@ -200,9 +208,9 @@ h3 {
   width: 97%;
   align-items: center;
   justify-content: space-around;
-  border-left: 3px solid #424242;
-  border-right: 3px solid#424242;
-  border-bottom: 3px solid #424242;
+  border-left: 3px solid $secondary-color;
+  border-right: 3px solid $secondary-color;
+  border-bottom: 3px solid $secondary-color;
   margin-bottom: 20px;
 }
 
