@@ -228,6 +228,7 @@ h3 {
 .icon {
   height: 100px;
   width: 100px;
+  fill: var(--secondary-color);
 }
 
 .icon:hover {

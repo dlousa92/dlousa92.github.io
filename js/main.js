@@ -32,7 +32,9 @@ const colorSchemes = [
   }
 ]
 
-function changeColor () {
+function changeColor (e) {
+  e.preventDefault()
+
   let index = Math.floor(Math.random() * Math.floor(6))
   let newScheme = colorSchemes[index]
 
