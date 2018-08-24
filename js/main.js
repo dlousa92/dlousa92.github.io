@@ -13,14 +13,14 @@ const colorSchemes = [
     secondarycolor: '#424242'
   },
   {
-    primarycolor: '#F0EFEA', // love this color scheme, burgundy white, luxorious look
+    primarycolor: '#F0EFEA', // change this color scheme
     secondarycolor: '#662225'
   },
   {
     primarycolor: '#A4CABC', // love this one, coral color scheme
     secondarycolor: '#B2473E'
   }, {
-    primarycolor: '#EBDCB2', // love this color scheme, cream color scheme
+    primarycolor: '#EBDCB2', // love this color scheme, cream color scheme || kind of too similar to mahogany and i like mahogany more
     secondarycolor: '#662E1C'
   }, {
     primarycolor: '#F1F1F2', // love this color scheme, icy blue
