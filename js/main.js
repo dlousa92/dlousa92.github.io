@@ -54,5 +54,5 @@ function changeColor (e) {
   }
 }
 
-const button = document.querySelector('.change-color')
+const button = document.querySelector('#change-color')
 button.addEventListener('click', changeColor)
