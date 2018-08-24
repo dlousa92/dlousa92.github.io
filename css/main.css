@@ -1,3 +1,8 @@
+:root {
+  --primary-color: #FAFAFA;
+  --secondary-color: #424242;
+}
+
 html {
   display: flex;
   flex-direction: column;
@@ -12,8 +17,8 @@ body {
   font-family: "Montserrat", sans-serif;
   line-height: 35px;
   max-width: 1800px;
-  background: #A4CABC;
-  color: #B2473E;
+  background: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 main {
@@ -25,7 +30,7 @@ main {
 }
 
 a {
-  color: #A4CABC;
+  color: var(--primary-color);
 }
 
 i {
@@ -47,11 +52,11 @@ h3 {
 }
 
 .collapsible-header {
-  border-bottom: 1px solid #A4CABC;
+  border-bottom: 1px solid var(--primary-color);
 }
 
 .collapsible-body {
-  border-bottom: 1px solid #A4CABC;
+  border-bottom: 1px solid var(--primary-color);
 }
 
 .header {
@@ -61,7 +66,7 @@ h3 {
   justify-content: space-around;
   width: 97%;
   height: 625px;
-  border: 3px solid #B2473E;
+  border: 3px solid var(--secondary-color);
   margin-top: 20px;
   padding: 40px 0px;
 }
@@ -79,7 +84,7 @@ h3 {
 
 .about {
   margin-top: -45px;
-  border: 3px solid #B2473E;
+  border: 3px solid var(--secondary-color);
   position: relative;
 }
 
@@ -89,23 +94,23 @@ h3 {
   left: 20px;
   padding: 8px;
   margin-top: 5px;
-  background: #A4CABC;
+  background: var(--primary-color);
 }
 
 .bio {
   margin-top: 30px;
   padding: 8%;
-  background: #A4CABC;
+  background: var(--primary-color);
 }
 
 .projects {
-  border: 1px solid #B2473E;
+  border: 1px solid var(--secondary-color);
   box-shadow: 0px 0px black;
   padding: 50px 0px 100px 0px;
   max-width: 100%;
   width: 100%;
-  background: #B2473E;
-  color: #A4CABC;
+  background: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .projectheader {
@@ -118,15 +123,15 @@ h3 {
 }
 
 .projecttitle {
-  background: #B2473E;
+  background: var(--secondary-color);
   position: relative;
   font-weight: 500;
   font-size: 1.2em;
 }
 
 .projecttitle:hover {
-  color: #B2473E;
-  background: #A4CABC;
+  color: var(--secondary-color);
+  background: var(--primary-color);
   transition: 0.35s;
 }
 
@@ -137,15 +142,15 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #A4CABC;
-  color: #B2473E;
-  border-right: 2px solid #B2473E;
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  border-right: 2px solid var(--secondary-color);
 }
 
 .projectlink:hover {
-  background: #B2473E;
-  color: #A4CABC;
-  border: 2px solid #A4CABC;
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
   transition: 0.35s;
 }
 
@@ -154,7 +159,7 @@ h3 {
 }
 
 .skillsection {
-  background: #A4CABC;
+  background: var(--primary-color);
   padding: 100px 0px;
 }
 
@@ -177,8 +182,8 @@ h3 {
 
 .contactme {
   width: 97%;
-  background: #B2473E;
-  color: #A4CABC;
+  background: var(--secondary-color);
+  color: var(--primary-color);
   text-align: center;
   padding: 80px 0px;
 }
@@ -192,14 +197,14 @@ h3 {
 }
 
 .emaillink > a {
-  border-bottom: 3px solid #A4CABC;
+  border-bottom: 3px solid var(--primary-color);
   padding: 10px;
   transition: 0.35s;
 }
 
 .emaillink > a:hover {
-  background: #A4CABC;
-  color: #B2473E;
+  background: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .footer {
@@ -207,9 +212,9 @@ h3 {
   width: 97%;
   align-items: center;
   justify-content: space-around;
-  border-left: 3px solid #B2473E;
-  border-right: 3px solid #B2473E;
-  border-bottom: 3px solid #B2473E;
+  border-left: 3px solid var(--secondary-color);
+  border-right: 3px solid var(--secondary-color);
+  border-bottom: 3px solid var(--secondary-color);
   margin-bottom: 20px;
 }
 
