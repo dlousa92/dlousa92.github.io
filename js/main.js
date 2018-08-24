@@ -31,3 +31,14 @@ const colorSchemes = [
     secondarycolor: '#42313A'
   }
 ]
+
+function changeColor () {
+  let index = Math.floor(Math.random() * Math.floor(6))
+  let newScheme = colorSchemes[index]
+
+  const html = document.getElementsByTagName('html')[0]
+  html.style.cssText = `--primary-color: ${newScheme.primarycolor}; --secondary-color: ${newScheme.secondarycolor};`
+}
+
+const button = document.querySelector('.change-color')
+button.addEventListener('click', changeColor)
