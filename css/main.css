@@ -69,6 +69,13 @@ h3 {
   border: 3px solid var(--secondary-color);
   margin-top: 20px;
   padding: 40px 0px;
+  position: relative;
+}
+
+#change-color {
+  position: absolute;
+  top: 2%;
+  right: 2%;
 }
 
 .brandstatement {
@@ -225,9 +232,12 @@ h3 {
   min-width: 50%;
 }
 
-.icon {
+.footericon {
   height: 100px;
   width: 100px;
+}
+
+.icon {
   fill: var(--secondary-color);
 }
 
