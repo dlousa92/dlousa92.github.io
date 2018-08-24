@@ -46,11 +46,9 @@ function changeColor (e) {
     const html = document.getElementsByTagName('html')[0]
     html.style.cssText = `--primary-color: ${newScheme.primarycolor}; --secondary-color: ${newScheme.secondarycolor};`
 
-    currentScheme = index
-    console.log('color scheme chosen')
+    currentScheme = index // assign number generated so we can compare color schemes
   } else {
     changeColor()
-    console.log('running again')
   }
 }
 
