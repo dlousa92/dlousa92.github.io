@@ -161,6 +161,15 @@ h3 {
   transition: 0.35s;
 }
 
+.linktoapi {
+  text-decoration: underline;
+}
+
+.linktoapi:hover {
+  font-size: 1.05em;
+  transition: .2s;
+}
+
 .forspace {
   margin-bottom: 70px;
 }
