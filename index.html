@@ -27,11 +27,8 @@
       <div class='container row'>
         <section class='about col s12 m10 offset-m1'>
           <h3 class='bioheader'>About me</h3>
-          <p class='bio'>I grew up in a small town on the New Jersey side of the Hudson River. I would look across the water and see New York
-             with its lights and its noise and its big dreams. New York represented adventure, success, and freedom. 
-             Something out of reach for a kid from a small town on the New Jersey Side of the Hudson River. For 25 years I never pursued those dreams
-             because I thought I could never reach them. Then one night I discovered coding. I didn't want to be that kid always destined to look across the river. I could be the designer instead of the user. 
-             I could be the creator instead of the spectator. Now, I hope you enjoy some of my creations.
+          <p class='bio'>I currently live in Baltimore, Maryland but I'm a New Jerseyan by birth. I love traveling as much as I can, I've been to Europe and South America. When I'm not coding you'll find me at the new restaurant in town trying absolutely everything
+            on the menu. Thank you for stopping by my site and checking out my projects! 
           </p>
         </section>
       </div>
@@ -41,10 +38,22 @@
           <h3 class='projectheader col s12'>My Work</h3>
           <ul class='col s12 m10 offset-m1 l8 offset-l2 collapsible projects'>
             <li class='projectcard'>
+              <div class='collapsible-header projecttitle'>4cast<i class='material-icons'>arrow_downward</i></div>
+                <div class='collapsible-body row'>
+                  <img class='projectimage col s12' src="img/4cast.png" alt="An image of 4cast, a weather forecast application.">
+                    <p class='col s12 forspace'>4cast is a small web application built to check the weather conditions in many major cities and towns across the world. I used Fetch to implement API requests to <a class="linktoapi" href="https://openweathermap.org/api">OpenWeatherMap.org</a>. Using Javascript, I populated HTML elements to display search results. These include
+                      temperature, humidity, and wind speed. 4cast is styled with Sass and designed to be fully responsive.
+                    </p>
+    
+                    <a class='col s10  offset-s1 m4 offset-m1 projectlink' target=_blank rel='noopener noreferrerhref' href='https://github.com/dlousa92/weatherapp'>Source code</a>
+                    <a class='col s10  offset-s1 m4 offset-m2 projectlink' target=_blank rel='noopener noreferrerhref' href='http://4cast.surge.sh/'>Visit the Site</a>
+                </div>
+            </li>
+            <li class='projectcard'>
               <div class='collapsible-header projecttitle'>Auxilium<i class='material-icons'>arrow_downward</i></div>
               <div class='collapsible-body row'>
                 <img class='projectimage col s12' src="img/auxilium.png" alt="An image of Auxilium's landing page.">
-                <p class='col s12'>Auxilium is my latest project, it's designed to connect organizations and individuals who are looking for volunteers with people seeking opportunities to help out in their local community. It's developed in Django and uses a PostgreSQL database.</p>
+                <p class='col s12'>Auxilium is designed to connect organizations and individuals who are looking for volunteers with people seeking opportunities to help out in their local community. It's developed in Django and uses a PostgreSQL database.</p>
                 <p class='col s12 forspace'>While it's currently not deployed, it can be run locally following the step by step guide on the Github repository found below.</p>
 
                 <a class='col s10 offset-s1  m4 offset-m4 projectlink' target=_blank rel='noopener noreferrerhref' href='https://github.com/dlousa92/auxilium/tree/master/auxilium_django'>Source code</a>
@@ -74,27 +83,13 @@
               </div>
             </li>
             <li class='projectcard'>
-              <div class='collapsible-header projecttitle'>4cast<i class='material-icons'>arrow_downward</i></div>
+              <div class='collapsible-header projecttitle'>Custom Wordpress Themes<i class='material-icons'>arrow_downward</i></div>
               <div class='collapsible-body row'>
-                  <img class='projectimage col s12' src="img/4cast.png" alt="An image of 4cast, a weather forecast application.">
-                  <p class='col s12 forspace'>4cast is a small web application built to check the weather conditions in many major cities and towns across the world. I used Fetch to implement API requests to <a class="linktoapi" href="https://openweathermap.org/api">OpenWeatherMap.org</a>. Using Javascript, I populated HTML elements to display search results. These include
-                    temperature, humidity, and wind speed. 4cast is styled with Sass and designed to be fully responsive.
+                  <img class='projectimage col s12' src="img/wordpresstheme.png" alt="An image of a small business site for J&M Agency">
+                  <p class='col s12'>This is a code sample of a custom wordpress theme I've designed. Currently I'm freelancing through Upwork to create custom Wordpress themes for different applications, including small business sites, blogs, and portfolios.
                   </p>
 
-                  <a class='col s10  offset-s1 m4 offset-m1 projectlink' target=_blank rel='noopener noreferrerhref' href='https://github.com/dlousa92/weatherapp'>Source code</a>
-                  <a class='col s10  offset-s1 m4 offset-m2 projectlink' target=_blank rel='noopener noreferrerhref' href='http://4cast.surge.sh/'>Visit the Site</a>
-              </div>
-            </li>
-            <li class='projectcard'>
-              <div class='collapsible-header projecttitle'>J&M Agency<i class='material-icons'>arrow_downward</i></div>
-              <div class='collapsible-body row'>
-                  <img class='projectimage col s12' src="img/jmagencydesktop.png" alt="An image of a small business site for J&M Agency">
-                  <p class='col s12 forspace'>J&M Agency is a small insurance business located in Newark, NJ. I was approached to redesign their website and update it to look clean and modern. I used Materialize for mobile responsive design and added DOM interaction through 
-                    to add a scrolling navbar, and to animate a hover effect on links.
-                  </p>
-
-                  <a class='col s10  offset-s1 m4 offset-m1 projectlink' target=_blank rel='noopener noreferrerhref' href='https://github.com/dlousa92/jmagency'>Source code</a>
-                  <a class='col s10  offset-s1 m4 offset-m2 projectlink' target=_blank rel='noopener noreferrerhref' href='http://jmagency.000webhostapp.com/'>Visit the Site</a>
+                  <a class='col s10 offset-s1  m4 offset-m4 projectlink' target=_blank rel='noopener noreferrerhref' href='https://github.com/dlousa92/custom-wordpress-theme'>Source code</a>
               </div>
             </li>
             <!-- <li class='projectcard'>
@@ -111,12 +106,11 @@
                 <li>HTML & CSS</li>
                 <li>SASS/SCSS</li>
                 <li>Mobile Responsive Design</li>
+                <li>PHP</li>
                 <li>React.js</li>
                 <li>Express.js</li>
                 <li>MongoDB</li>
-                <li>Python</li>
-                <li>PostgreSQL</li>
-                <li>Django</li>
+                <li>MySQL & PostgreSQL</li>
               </ul>
             <div class='col s12 m6 l4 offset-l2 skillintro'>
               <h3 class='moreabout'>How I Started</h3>
