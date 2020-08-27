@@ -2,140 +2,323 @@
 <html lang="en">
   <head>
     <title>Daniel Lousa</title>
-    <meta charset="utf-8">
-    <meta name="author" content="Daniel Lousa">
-    <meta name="description" content="A portfolio website for Daniel Lousa">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/evil-icons@1.9.0/assets/evil-icons.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Playfair+Display:400,700" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta name="author" content="Daniel Lousa" />
+    <meta name="description" content="A portfolio website for Daniel Lousa" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/evil-icons@1.9.0/assets/evil-icons.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="css/materialize.min.css"
+      media="screen,projection"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Playfair+Display:400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poiret+One"
+      rel="stylesheet"
+    />
   </head>
-  <body class='body'>
-      <header class='header'>
-        <h1>Daniel Lousa</h1>
-        <p class='brandstatement'>A resourceful and passionate Web Developer, with the drive to constantly learn, grow, and design.</p>
-        <p class='hobbies'>Traveler | Creator | Foodie | Boardgamer</p>
-        <a id='change-color' href='#'><div data-icon="ei-pencil" data-size="m"></div></a>
-      </header>
+  <body class="body">
+    <header class="header">
+      <h1>Daniel Lousa</h1>
+      <p class="brandstatement">
+        A resourceful and passionate Web Developer, with the drive to constantly
+        learn, grow, and design.
+      </p>
+      <p class="hobbies">Traveler | Creator | Foodie | Boardgamer</p>
+      <a id="change-color" href="#"
+        ><div data-icon="ei-pencil" data-size="m"></div
+      ></a>
+    </header>
 
+    <div class="container row">
+      <section class="about col s12 m10 offset-m1">
+        <h3 class="bioheader">About me</h3>
+        <p class="bio">
+          I currently live in Baltimore, Maryland but I'm a New Jerseyan by
+          birth. I love traveling as much as I can, I've to 10 different
+          countries and 15 different states. When I'm not coding you'll find me
+          at the new restaurant in town trying absolutely everything on the
+          menu. Thank you for stopping by my site and checking out my projects!
+        </p>
+      </section>
+    </div>
 
-      <div class='container row'>
-        <section class='about col s12 m10 offset-m1'>
-          <h3 class='bioheader'>About me</h3>
-          <p class='bio'>I currently live in Baltimore, Maryland but I'm a New Jerseyan by birth. I love traveling as much as I can, I've been to Europe and South America. When I'm not coding you'll find me at the new restaurant in town trying absolutely everything
-            on the menu. Thank you for stopping by my site and checking out my projects! 
-          </p>
-        </section>
-      </div>
+    <main>
+      <section class="projects container row">
+        <h3 class="projectheader col s12">My Work</h3>
+        <ul class="col s12 m10 offset-m1 l8 offset-l2 collapsible projects">
+          <li class="projectcard">
+            <div class="collapsible-header projecttitle">
+              Boeing Data Visualization<i class="material-icons"
+                >arrow_downward</i
+              >
+            </div>
+            <div class="collapsible-body row">
+              <img
+                class="projectimage col s12"
+                src="img/boeing.gif"
+                alt="A gif of a boeing data visualization"
+              />
+              <p class="col s12 forspace">
+                I created this data visualization for The Trade Guys website as
+                part of my internship at The Center for Strategic and
+                International Studies (CSIS). I used the open source javascript
+                library Waypoints to add the scrolling functionality. Each
+                individual part of the plane was labeled and connected through
+                javascript to an SVG. You'll find a preview of the article this
+                was a part of as well as the source code below.
+              </p>
 
-      <main>
-        <section class='projects container row'>
-          <h3 class='projectheader col s12'>My Work</h3>
-          <ul class='col s12 m10 offset-m1 l8 offset-l2 collapsible projects'>
-            <li class='projectcard'>
-              <div class='collapsible-header projecttitle'>4cast<i class='material-icons'>arrow_downward</i></div>
-                <div class='collapsible-body row'>
-                  <img class='projectimage col s12' src="img/4cast.png" alt="An image of 4cast, a weather forecast application.">
-                    <p class='col s12 forspace'>4cast is a small web application built to check the weather conditions in many major cities and towns across the world. I used Fetch to implement API requests to <a class="linktoapi" href="https://openweathermap.org/api">OpenWeatherMap.org</a>. Using Javascript, I populated HTML elements to display search results. These include
-                      temperature, humidity, and wind speed. 4cast is styled with Sass and designed to be fully responsive.
-                    </p>
-    
-                    <a class='col s10  offset-s1 m4 offset-m1 projectlink' target=_blank rel='noopener noreferrerhref' href='https://github.com/dlousa92/weatherapp'>Source code</a>
-                    <a class='col s10  offset-s1 m4 offset-m2 projectlink' target=_blank rel='noopener noreferrerhref' href='http://4cast.surge.sh/'>Visit the Site</a>
-                </div>
-            </li>
-            <li class='projectcard'>
-              <div class='collapsible-header projecttitle'>Auxilium<i class='material-icons'>arrow_downward</i></div>
-              <div class='collapsible-body row'>
-                <img class='projectimage col s12' src="img/auxilium.png" alt="An image of Auxilium's landing page.">
-                <p class='col s12'>Auxilium is designed to connect organizations and individuals who are looking for volunteers with people seeking opportunities to help out in their local community. It's developed in Django and uses a PostgreSQL database.</p>
-                <p class='col s12 forspace'>While it's currently not deployed, it can be run locally following the step by step guide on the Github repository found below.</p>
+              <a
+                class="col s10 offset-s1 m4 offset-m1 projectlink"
+                target="_blank"
+                rel="noopener noreferrerhref"
+                href="https://github.com/dlousa92/custom-wordpress-theme"
+                >Source code</a
+              >
 
-                <a class='col s10 offset-s1  m4 offset-m4 projectlink' target=_blank rel='noopener noreferrerhref' href='https://github.com/dlousa92/auxilium/tree/master/auxilium_django'>Source code</a>
-              </div>
-            </li>
-            <li class='projectcard'>
-              <div class='collapsible-header projecttitle'>The Board Game Collector<i class='material-icons'>arrow_downward</i></div>
-              <div class='collapsible-body row'>
-                  <img class='projectimage col s12' src="img/thebgc.png" alt="An image of my project titled The Board Game Collector">
-                  <p class='col s12'>The Board Game Collector is a web application designed to help boardgamers keep track of their collection online. The BGC displays your board games in a very clean and easy to understand design.</p>
-                  <p class='col s12 forspace'>The BGC was built with Express.js, MongoDB for the database, and Handlebars for rendering.</p>
+              <a
+                class="col s10 offset-s1 m4 offset-m2 projectlink"
+                target="_blank"
+                rel="noopener noreferrerhref"
+                href="https://boeing-viz-master--csis-trade-guys.netlify.com/trade-explained/around-the-world-in-24-parts/"
+                >Visit the Site</a
+              >
+            </div>
+          </li>
+          <li class="projectcard">
+            <div class="collapsible-header projecttitle">
+              4cast<i class="material-icons">arrow_downward</i>
+            </div>
+            <div class="collapsible-body row">
+              <img
+                class="projectimage col s12"
+                src="img/4cast.png"
+                alt="An image of 4cast, a weather forecast application."
+              />
+              <p class="col s12 forspace">
+                4cast is a small web application built to check the weather
+                conditions in many major cities and towns across the world. I
+                used Fetch to implement API requests to
+                <a class="linktoapi" href="https://openweathermap.org/api"
+                  >OpenWeatherMap.org</a
+                >. Using Javascript, I populated HTML elements to display search
+                results. These include temperature, humidity, and wind speed.
+                4cast is styled with Sass and designed to be fully responsive.
+              </p>
 
-                  <a class='col s10 offset-s1 m4 offset-m1 projectlink' target=_blank rel='noopener noreferrerhref' href='https://github.com/dlousa92/boardgame-collector'>Source code</a>
-                  <a class='col s10 offset-s1 m4 offset-m2 projectlink' target=_blank rel='noopener noreferrerhref' href='https://thebgc.herokuapp.com/'>Visit the Site</a>
-              </div>
-            </li>
-            <li class='projectcard'>
-              <div class='collapsible-header projecttitle'>Code Trivia<i class='material-icons'>arrow_downward</i></div>
-              <div class='collapsible-body row'>
-                  <img class='projectimage col s12' src="img/codetrivia.png" alt="An image of my Code Trivia project">
-                  <p class='col s12 forspace'>Code Trivia is the very first app-like project I built. It's a full functioning game made with HTML, CSS, and Javascript that will keep track of your score as you answer programming related trivia questions. I built it to help strengthen my own knowledge.
-                    It even has a gaming-related easter egg, check it out! 
-                  </p>
+              <a
+                class="col s10 offset-s1 m4 offset-m1 projectlink"
+                target="_blank"
+                rel="noopener noreferrerhref"
+                href="https://github.com/dlousa92/weatherapp"
+                >Source code</a
+              >
+              <a
+                class="col s10 offset-s1 m4 offset-m2 projectlink"
+                target="_blank"
+                rel="noopener noreferrerhref"
+                href="http://4cast.surge.sh/"
+                >Visit the Site</a
+              >
+            </div>
+          </li>
+          <li class="projectcard">
+            <div class="collapsible-header projecttitle">
+              Auxilium<i class="material-icons">arrow_downward</i>
+            </div>
+            <div class="collapsible-body row">
+              <img
+                class="projectimage col s12"
+                src="img/auxilium.png"
+                alt="An image of Auxilium's landing page."
+              />
+              <p class="col s12">
+                Auxilium is designed to connect organizations and individuals
+                who are looking for volunteers with people seeking opportunities
+                to help out in their local community. It's developed in Django
+                and uses a PostgreSQL database.
+              </p>
+              <p class="col s12 forspace">
+                While it's currently not deployed, it can be run locally
+                following the step by step guide on the Github repository found
+                below.
+              </p>
 
-                  <a class='col s10  offset-s1 m4 offset-m1 projectlink' target=_blank rel='noopener noreferrerhref' href='https://github.com/dlousa92/triviagame'>Source code</a>
-                  <a class='col s10  offset-s1 m4 offset-m2 projectlink' target=_blank rel='noopener noreferrerhref' href='https://dlousa92.github.io/triviagame/'>Visit the Site</a>
-              </div>
-            </li>
-            <li class='projectcard'>
-              <div class='collapsible-header projecttitle'>Custom Wordpress Themes<i class='material-icons'>arrow_downward</i></div>
-              <div class='collapsible-body row'>
-                  <img class='projectimage col s12' src="img/wordpresstheme.png" alt="An image of a small business site for J&M Agency">
-                  <p class='col s12'>This is a code sample of a custom wordpress theme I've designed. Currently I'm freelancing through Upwork to create custom Wordpress themes for different applications, including small business sites, blogs, and portfolios.
-                  </p>
+              <a
+                class="col s10 offset-s1 m4 offset-m4 projectlink"
+                target="_blank"
+                rel="noopener noreferrerhref"
+                href="https://github.com/dlousa92/auxilium/tree/master/auxilium_django"
+                >Source code</a
+              >
+            </div>
+          </li>
+          <li class="projectcard">
+            <div class="collapsible-header projecttitle">
+              The Board Game Collector<i class="material-icons"
+                >arrow_downward</i
+              >
+            </div>
+            <div class="collapsible-body row">
+              <img
+                class="projectimage col s12"
+                src="img/thebgc.png"
+                alt="An image of my project titled The Board Game Collector"
+              />
+              <p class="col s12">
+                The Board Game Collector is a web application designed to help
+                boardgamers keep track of their collection online. The BGC
+                displays your board games in a very clean and easy to understand
+                design.
+              </p>
+              <p class="col s12 forspace">
+                The BGC was built with Express.js, MongoDB for the database, and
+                Handlebars for rendering.
+              </p>
 
-                  <a class='col s10 offset-s1  m4 offset-m4 projectlink' target=_blank rel='noopener noreferrerhref' href='https://github.com/dlousa92/custom-wordpress-theme'>Source code</a>
-              </div>
-            </li>
-            <!-- <li class='projectcard'>
+              <a
+                class="col s10 offset-s1 m4 offset-m1 projectlink"
+                target="_blank"
+                rel="noopener noreferrerhref"
+                href="https://github.com/dlousa92/boardgame-collector"
+                >Source code</a
+              >
+              <a
+                class="col s10 offset-s1 m4 offset-m2 projectlink"
+                target="_blank"
+                rel="noopener noreferrerhref"
+                href="https://thebgc.herokuapp.com/"
+                >Visit the Site</a
+              >
+            </div>
+          </li>
+          <li class="projectcard">
+            <div class="collapsible-header projecttitle">
+              Code Trivia<i class="material-icons">arrow_downward</i>
+            </div>
+            <div class="collapsible-body row">
+              <img
+                class="projectimage col s12"
+                src="img/codetrivia.png"
+                alt="An image of my Code Trivia project"
+              />
+              <p class="col s12 forspace">
+                Code Trivia is the very first app-like project I built. It's a
+                full functioning game made with HTML, CSS, and Javascript that
+                will keep track of your score as you answer programming related
+                trivia questions. I built it to help strengthen my own
+                knowledge. It even has a gaming-related easter egg, check it
+                out!
+              </p>
+
+              <a
+                class="col s10 offset-s1 m4 offset-m1 projectlink"
+                target="_blank"
+                rel="noopener noreferrerhref"
+                href="https://github.com/dlousa92/triviagame"
+                >Source code</a
+              >
+              <a
+                class="col s10 offset-s1 m4 offset-m2 projectlink"
+                target="_blank"
+                rel="noopener noreferrerhref"
+                href="https://dlousa92.github.io/triviagame/"
+                >Visit the Site</a
+              >
+            </div>
+          </li>
+          <!-- <li class='projectcard'>
               <div class='collapsible-header projecttitle'>Pokédex<i class='material-icons'>arrow_downward</i></div>
               <div class='collapsible-body'></div>
             </li> -->
-          </ul>
-        </section>
+        </ul>
+      </section>
 
-        <section class='skillsection'>
-          <div class='skillcontent row'>
-              <ul class='skills col s12 m4 offset-m1 l4 offset-l1'>
-                <h3 class='skillheader'>What I know</h3>
-                <li>HTML & CSS</li>
-                <li>SASS/SCSS</li>
-                <li>Mobile Responsive Design</li>
-                <li>PHP</li>
-                <li>React.js</li>
-                <li>Express.js</li>
-                <li>Python</li>
-                <li>Django</li>
-                <li>MongoDB</li>
-                <li>MySQL & PostgreSQL</li>
-              </ul>
-            <div class='col s12 m6 l4 offset-l2 skillintro'>
-              <h3 class='moreabout'>How I Started</h3>
-              <p>The first website I developed was a mock wikipedia page about Brown Bears with little to no styling. From small beginnings come wonderful things. When I first learned about the CSS Box Model my mind was blown away.
-              Then I learned about Flexbox and Grid. Then I learned about Javascript and Dom Interaction. This stuff seemed like wizardry to me just a few months before. It quickly turned into an avalanche of learning and I haven't stopped since.
-              </p>
-            </div>
+      <section class="skillsection">
+        <div class="skillcontent row">
+          <ul class="skills col s12 m4 offset-m1 l4 offset-l1">
+            <h3 class="skillheader">What I know</h3>
+            <li>HTML & CSS</li>
+            <li>SASS/SCSS</li>
+            <li>Javascript</li>
+            <li>React.js</li>
+            <li>Express.js</li>
+            <li>Python</li>
+            <li>MongoDB</li>
+            <li>MySQL & PostgreSQL</li>
+            <li>Photoshop & Illustrator</li>
+            <li>Git & Svn</li>
+          </ul>
+          <div class="col s12 m6 l4 offset-l2 skillintro">
+            <h3 class="moreabout">How I Started</h3>
+            <p>
+              The first website I developed was a mock wikipedia page about
+              Brown Bears with little to no styling. From small beginnings come
+              wonderful things. When I first learned about the CSS Box Model my
+              mind was blown away. Then I learned about Flexbox and Grid. Then I
+              learned about Javascript and Dom Manipulations. This stuff seemed
+              like wizardry to me just a few months before. It quickly turned
+              into an avalanche of learning and I haven't stopped since.
+            </p>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <section class='contactme'>
-          <p>Want to get in touch?</p>
-          <h3 class='emaillink'><a href='mailto:dlousa92@gmail.com'>dlousa92@gmail.com</a></h3>
-        </section>
+      <section class="contactme">
+        <p>Want to get in touch?</p>
+        <h3 class="emaillink">
+          <a href="mailto:dlousa92@gmail.com">dlousa92@gmail.com</a>
+        </h3>
+      </section>
 
-        <footer class='footer'>
-          <ul class='socialmedia'>
-            <li><a class='icon footericon' target=_blank rel='noopener noreferrerhref' href='https://github.com/dlousa92'><div data-icon="ei-sc-github" data-size="l"></div></a></li>
-            <li><a class='icon footericon' target=_blank rel='noopener noreferrerhref' href='https://www.linkedin.com/in/daniel-lousa/'><div data-icon="ei-sc-linkedin" data-size="l"></div></a></li>
-            <li><a class='icon footericon' target=_blank rel='noopener noreferrerhref' href='https://twitter.com/daniel_lousa'><div data-icon="ei-sc-twitter" data-size="l"></div></a></li>
-          </ul>
-        </footer>
-      </main>
+      <footer class="footer">
+        <ul class="socialmedia">
+          <li>
+            <a
+              class="icon footericon"
+              target="_blank"
+              rel="noopener noreferrerhref"
+              href="https://github.com/dlousa92"
+              ><div data-icon="ei-sc-github" data-size="l"></div
+            ></a>
+          </li>
+          <li>
+            <a
+              class="icon footericon"
+              target="_blank"
+              rel="noopener noreferrerhref"
+              href="https://www.linkedin.com/in/daniel-lousa/"
+              ><div data-icon="ei-sc-linkedin" data-size="l"></div
+            ></a>
+          </li>
+          <li>
+            <a
+              class="icon footericon"
+              target="_blank"
+              rel="noopener noreferrerhref"
+              href="https://twitter.com/daniel_lousa"
+              ><div data-icon="ei-sc-twitter" data-size="l"></div
+            ></a>
+          </li>
+        </ul>
+      </footer>
+    </main>
 
     <script src="https://cdn.jsdelivr.net/npm/evil-icons@1.9.0/assets/evil-icons.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
